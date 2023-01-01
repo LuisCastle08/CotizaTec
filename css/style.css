@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+body{
+    background-color: #384D77;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    
+}
+
+.titulo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    color:rgb(25, 25, 25);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.menu{
+    background-color: aliceblue;
+    width: 95%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.bloques{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.element{    
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.color1{
+    color: #373737;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.color2{
+    color:azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img{
+    max-width: 50px;
+}
+
+.formulario p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cant-pre{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.cantidad{
+    width: 45%;
+    
+}
+.precio{
+    width: 45%;
+}
+.btn{
+    width: 30%;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type='text'], input[type='number'] {
+    text-align: center;
+    border: 2px solid #cf9e3a ;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+
+.pie{
+    position: absolute;
+    bottom: 0;
+    
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    color: #373737;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+
